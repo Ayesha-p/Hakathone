@@ -1,0 +1,11 @@
+Test Case ID,Description,Test Steps,Expected Result,Actual Result,Status,Severity,Remarks
+TC001,Validate product listing page,Open product page > Verify product display,Products are displayed correctly,Products displayed correctly,Passed,Low,No issues found
+TC002,Test API error handling,Disconnect API > Refresh page,Fallback UI with error message is displayed,Error message shown,Passed,Medium,Handled gracefully
+TC003,Check cart functionality,Add product to cart > Verify cart contents,Cart updates with added product,Cart updates as expected,Passed,High,Works as expected
+TC004,Ensure responsiveness on mobile,Resize browser window > Check layout,Layout adjusts properly to screen size,Responsive layout working as intended,Passed,Medium,Test successful
+TC005,Validate search functionality,Enter query in search bar > Verify results displayed,Relevant products appear in search results,Relevant products displayed as expected,Passed,Medium,No issues found
+TC006,"Test ""Remove from Cart"" functionality",Add product to cart > Remove product > Verify cart contents,Cart updates correctly after product removal,Product removed successfully,Passed,High,Works as expected
+TC007,Validate category filter functionality,Select category > Verify product list updates,Product list updates based on selected category,Product list updates correctly,Passed,Medium,No issues found
+TC008,Test checkout process,Add product to cart > Proceed to checkout > Submit order,Order placed successfully,Order placed as expected,Passed,High,Payment flow verified
+TC009,Test product details page,Click on product > Verify details page loads,Product details page displays accurate info,Product details displayed correctly,Passed,Low,Test successful
+TC010,Ensure compatibility on different browsers,"Open app in Chrome, Firefox, Safari > Verify functionality",Functionality remains consistent,Consistent across tested browsers,Passed,Medium,Verified on major browsers
